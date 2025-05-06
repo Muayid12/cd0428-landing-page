@@ -221,3 +221,63 @@ section.your-active-class .landing__container::after {
 		           rotate(-360deg);
 	}
 }
+
+
+
+/* Active link styling */
+.navbar__menu .menu__link.active-link {
+    background: #333;
+    color: #fff;
+    transition: ease 0.3s all;
+  }
+  
+  /* Scroll to top button */
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #555;
+  }
+  
+  /* Collapsible sections */
+  .collapsible {
+    cursor: pointer;
+  }
+  
+  .collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  /* Responsive navbar */
+  @media only screen and (max-width: 600px) {
+    .navbar__menu li {
+      display: block;
+      text-align: center;
+    }
+    
+    .page__header {
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+  
+  /* Section styling when active */
+  section.your-active-class {
+    background: rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+  }
