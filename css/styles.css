@@ -253,16 +253,6 @@ section.your-active-class .landing__container::after {
     background-color: #555;
   }
   
-  /* Collapsible sections */
-  .collapsible {
-    cursor: pointer;
-  }
-  
-  .collapsible-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
   
   /* Responsive navbar */
   @media only screen and (max-width: 600px) {

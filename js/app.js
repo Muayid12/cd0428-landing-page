@@ -125,19 +125,7 @@ function createScrollToTopButton() {
 document.addEventListener('DOMContentLoaded', () => {
     buildNav();
     createScrollToTopButton();
-    
-    // Add collapsible functionality
-    document.querySelectorAll('.collapsible').forEach(button => {
-      button.addEventListener('click', () => {
-        button.classList.toggle('active');
-        const content = button.nextElementSibling;
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + 'px';
-        }
-      });
-    });
+
   });
   
   // Scroll to section on link click
