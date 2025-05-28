@@ -8,7 +8,6 @@ A fun, responsive page that builds its own navigation!
 - **Highlights** the section you're viewing
 - **Smooth scrolls** when clicking menu items
 - Works on **all devices** (phones, tablets, computers)
-- Sections **collapse/expand** when clicked
 - **"Back to top"** button appears when scrolling down
 
 ## 🚀 How To Use
